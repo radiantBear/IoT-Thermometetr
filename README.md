@@ -9,7 +9,8 @@ Building this project is somewhat involved and takes place in several phases:
 
 1. [Physical assembly](/docs/assembly.md)
 2. [Programming the thermometer](/docs/thermometer.md)
-    > Note: You will need the website's URL in order to program the thermometer.
+> [!NOTE]
+> You will need the website's URL in order to program the thermometer.
 3. [Setting up the website](/docs/server.md)
 
 

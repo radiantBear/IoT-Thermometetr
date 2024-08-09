@@ -28,9 +28,11 @@ You will need to print both the [main thermometer box](/models/body.stl) and the
 
 You will need to connect all electronic components together so they can communicate. The ESP32 is the thermometer's "brain", and all other components connect to it. They should be connected as shown on the wiring schematic below. 
 
-> **Warning:** Be sure to connect each component to the correct voltage level to avoid damage. If you changed any of the components, refer to their documentation for the expected voltage level. Pay special attention to the voltage expected by the ESP32's GPIO pins (eg for the switches).
+> [!WARNING]
+> Be sure to connect each component to the correct voltage level to avoid damage. If you changed any of the components, refer to their documentation for the expected voltage level. Pay special attention to the voltage expected by the ESP32's GPIO pins (eg for the switches).
 
-> **Note:** Be sure to connect each of the ESP32's GPIO pins to the correct component pin to avoid communication issues.
+> [!NOTE]
+> Be sure to connect each of the ESP32's GPIO pins to the correct component pin to avoid communication issues.
 
 ![Wiring schematic](/docs/img/Wiring_Schematic.jpg)
 
